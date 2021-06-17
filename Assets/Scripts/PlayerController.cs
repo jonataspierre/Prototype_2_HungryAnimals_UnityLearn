@@ -7,9 +7,9 @@ public class PlayerController : MonoBehaviour
     [Header("Read Input")]
     public float horizontalInput;
     [Header("Speed Player")]
-    public float speedPlayer = 10.0f;
+    public float speedPlayer = 12.0f;
     [Header("Boundaries")]
-    public float xRange = 10.0f;
+    public float xRange = 12.0f;
     [Header("Food Prefab")]
     public GameObject foodPrefab;
     
