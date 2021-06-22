@@ -5984,7 +5984,7 @@ GameObject:
   - component: {fileID: 6861976765726202237}
   m_Layer: 0
   m_Name: Dog_01
-  m_TagString: Untagged
+  m_TagString: Animals
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6071,7 +6071,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7306358886ec9746b965189430edc00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speedObject: 10
+  speedObject: 9
 --- !u!114 &5452175518421525717
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6084,6 +6084,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a27d5866970cf174ca26238c4b6a48c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sideBound: 25
+  gameManager: {fileID: 0}
 --- !u!65 &2736837352743996869
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6109,3 +6111,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29625ac61b23e694896fb5e16e6a3c24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameManager: {fileID: 0}
